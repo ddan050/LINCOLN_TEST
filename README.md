@@ -54,7 +54,7 @@ Our code runs on the Intel i7-7700k CPU with 64GB memory and  NVIDIA RTX 2080 Ti
 
 ## Additional Result
 
-###  Fixed-split setting experiment
+###  [Fixed-split setting experiment](#Fixed-split setting experiment)
 
 [Fixed-split setting experiment result](./Additional_Result/fixed_split_result.png)
 
@@ -62,7 +62,7 @@ We evaluate LINCOLN by using two different evaluation settings, following [ROLAN
 We compare the hyperedge prediction accuracies of LINCOLN and our competitors in the <u>fixed-split evaluation settings</u>.
 
 
-### The impact of inter-snapshot learning 
+### [The impact of inter-snapshot learning] (#The impact of inter-snapshot learning)
 
 We verify the impact of inter-snapshot learning on the
 hyperedge prediction accuracy of LINCOLN.
