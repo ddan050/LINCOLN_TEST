@@ -56,7 +56,7 @@ Our code runs on the Intel i7-7700k CPU with 64GB memory and  NVIDIA RTX 2080 Ti
 
 ###  Fixed-split setting experiment
 
-[Fixed-split setting experiment result](./Additional_Result/fixed_split_result.pdf)
+[Fixed-split setting experiment result](./Additional_Result/fixed_split_result.png)
 
 We evaluate LINCOLN by using two different evaluation settings, following [ROLAND](https://arxiv.org/abs/2208.07239) : (1) fixed-split evaluation and (2) liveupdate evaluation settings. 
 We compare the hyperedge prediction accuracies of LINCOLN and our competitors in the <u>fixed-split evaluation settings</u>.
@@ -67,17 +67,17 @@ We compare the hyperedge prediction accuracies of LINCOLN and our competitors in
 We verify the impact of inter-snapshot learning on the
 hyperedge prediction accuracy of LINCOLN.
 
-[Intermediate node embedding result](./Additional_Result/temp_exp_data.pdf)
+[Intermediate node embedding result](./Additional_Result/temp_exp_data.png)
 
 We evaluated three LINCOLN variants with different inter-snapshot learning designs: *LINCOLN-Fin*: uses only the final node embeddings as input to the inter-snapshot learning (baseline). *LINCOLN-Mid*: uses the first, third, and final node embeddings as input to the inter-snapshot learning. *LINCOLN-All*: uses all intermediate node embeddings as input to the inter-snapshot learning (proposed method).
 
-[Temporal feature update methods result](./Additional_Result/temporal%20update.pdf)
+[Temporal feature update methods result](./Additional_Result/temporal%20update.png)
 
 Furthermore, we compare four variants of LINCOLN with different temporal feature update methods: (1) Moving average (MA); (2) Multi-layer perceptron (MLP); (3) [LSTM](https://ieeexplore.ieee.org/abstract/document/6795963), and (4) [GRU](https://arxiv.org/abs/1406.1078).
 
 
 ### The impacts of the hyperparameter β
-[Hyperparamter sensitivity result](./Additional_Result/hyperparameter_exp.pdf)
+[Hyperparamter sensitivity result](./Additional_Result/hyperparameter_exp.png)
 
 We evaluate the impacts of the hyperparameters β on the
 model accuracy of LINCOLN. We measured the accuracy of
