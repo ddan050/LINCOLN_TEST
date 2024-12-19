@@ -4,7 +4,9 @@ This repository provides an implementation of LINCOLN as described in the paper:
 
 ## Overview
 
-![LINCOLN](./overview_fig.pdf)
+<p align="center">
+<img src="./overview_fig.png" width="50%" height="50%">
+</p>
 
 - Observation: We observe that high-order relations tend to (O1) have a structural and temporal influence on other relations in a short term and (O2) periodically re-appear in a long term.
 
