@@ -36,19 +36,12 @@ Furthermore, as shown in Table, LINCOLN consistently achieves high accuracies ac
 This result highlights the overall effectiveness of our inter-snapshot learning design, which leverages intermediate node embeddings to capture the temporal features of evolving networks, as discussed in Section 3.2. Moreover, recurrent neural network-based inter-snapshot learning (i.e., LSTM and GRU) outperform heuristic and non-recurrent neural network-based approaches, further emphasizing the strength of recurrent architectures in modeling temporal dynamics.
 
 ## Hyperparameter sensitivity
-<p align="center">
-<img src="hyperparameter_exp.png" width="50%" height="50%">
-</p>
+![hyperparameter result](hyperparameter_exp.png)
 
-Figure shows the results, where the x-axis represents the
-control weight β and the y-axis represents the hyperedge
-prediction accuracy. 
+Figure shows the results, where the x-axis represents the control weight β and the y-axis represents the hyperedge prediction accuracy. 
 
 The accuracy of LINCOLN tends to increase until β reaches around 0.4 and LINCOLN achieves the best accuracy at around 0.4. However, the accuracy of LINCOLN decreases when β is larger than 0.4 and LINCOLN
-with β ≥ 1.0 shows comparable accuracy even to LINCOLN
-with β = 0 (i.e., the contrastive loss is not used). 
+with β ≥ 1.0 shows comparable accuracy even to LINCOLN with β = 0 (i.e., the contrastive loss is not used). 
 
 This result verifies the effectiveness of the contrastive loss that provides complementary information beneficial to LINCOLN to
-learn high-order dynamics of real-world networks. However,
-too large β may cause the model parameters of LINCOLN to
-overfit the contrastive loss rather than the prediction loss.
+learn high-order dynamics of real-world networks. However, too large β may cause the model parameters of LINCOLN to overfit the contrastive loss rather than the prediction loss.
