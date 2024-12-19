@@ -61,22 +61,16 @@ We evaluate LINCOLN by using two different evaluation settings, following [ROLAN
 We compare the hyperedge prediction accuracies of LINCOLN and our competitors in the <u>fixed-split evaluation settings</u>.
 
 
-### The impact of inter-snapshot learning
+### [The impact of inter-snapshot learning](Additional_Result/inter-snapshot.md)
 
-We verify the impact of inter-snapshot learning on the
-hyperedge prediction accuracy of LINCOLN.
+We verify the impact of inter-snapshot learning on the hyperedge prediction accuracy of LINCOLN.
 
-[Intermediate node embedding result](./Additional_Result/temp_exp_data.png)
+(1) We evaluated three LINCOLN variants with different inter-snapshot learning designs: *LINCOLN-Fin*: uses only the final node embeddings as input to the inter-snapshot learning (baseline). *LINCOLN-Mid*: uses the first, third, and final node embeddings as input to the inter-snapshot learning. *LINCOLN-All*: uses all intermediate node embeddings as input to the inter-snapshot learning (proposed method).
 
-We evaluated three LINCOLN variants with different inter-snapshot learning designs: *LINCOLN-Fin*: uses only the final node embeddings as input to the inter-snapshot learning (baseline). *LINCOLN-Mid*: uses the first, third, and final node embeddings as input to the inter-snapshot learning. *LINCOLN-All*: uses all intermediate node embeddings as input to the inter-snapshot learning (proposed method).
-
-[Temporal feature update methods result](./Additional_Result/temporal%20update.png)
-
-Furthermore, we compare four variants of LINCOLN with different temporal feature update methods: (1) Moving average (MA); (2) Multi-layer perceptron (MLP); (3) [LSTM](https://ieeexplore.ieee.org/abstract/document/6795963), and (4) [GRU](https://arxiv.org/abs/1406.1078).
+(2) Furthermore, we compare four variants of LINCOLN with different temporal feature update methods: (1) Moving average (MA); (2) Multi-layer perceptron (MLP); (3) [LSTM](https://ieeexplore.ieee.org/abstract/document/6795963), and (4) [GRU](https://arxiv.org/abs/1406.1078).
 
 
-### The impacts of the hyperparameter β
-[Hyperparamter sensitivity result](./Additional_Result/hyperparameter_exp.png)
+### [The impacts of the hyperparameter β](Additional_Result/hyperparameter.md)
 
 We evaluate the impacts of the hyperparameters β on the
 model accuracy of LINCOLN. We measured the accuracy of
