@@ -26,7 +26,7 @@ This repository provides an implementation of LINCOLN as described in the paper:
 |Contact-high|327|172,035|4.2 Days|Quarter of a Hour|164|
 |Congress|1,718|260,851|33 Years 6 Months|Quarter of a Year|98|
 
-We provide 7 real-world datasets for our new benchmark task `/data/` and sampling negative samples code `/data/sampler.py`
+We provide 7 real-world datasets for our new benchmark task at [Here](https://drive.google.com/file/d/11gKvgjvydcGJHnKt8zK_WvK_WNAUJgAr/view?usp=drive_link) and sampling negative samples code `/data/sampler.py`
 
 ```
 # File Organization
