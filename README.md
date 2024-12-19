@@ -54,7 +54,7 @@ Our code runs on the Intel i7-7700k CPU with 64GB memory and  NVIDIA RTX 2080 Ti
 
 ## Additional Result
 
-###  [Fixed-split setting experiment](#Fixed-split setting experiment)
+###  [Fixed-split setting experiment](Additional_Result/Readme_add.md)
 
 [Fixed-split setting experiment result](./Additional_Result/fixed_split_result.png)
 
