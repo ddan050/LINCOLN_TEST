@@ -17,7 +17,7 @@ This repository provides an implementation of LINCOLN as described in the paper:
 
 ## Datasets
 |Name|# of nodes|# of hyperedges|Range|Snapshot frequency|# of snapshots|
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:------:|:------:|:------:|:---:|:------:|:------:|
 |Email-enron|143|10,883|3 Years 5 Months|Monthly|40|
 |Email-eu|979|234,760|2 Years 2 Months|Weekly|78|
 |Tags|3,021|271,233|8 Years 6 Months|Monthly|86|
