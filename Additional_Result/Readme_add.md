@@ -33,6 +33,7 @@ This finding demonstrates that intermediate node embeddings provide valuable inf
 ![temporal feature update methods](temporal%20update.png)
 
 Furthermore, as shown in Table, LINCOLN consistently achieves high accuracies across most datasets, regardless of the specific variant of its temporal feature update methods. 
+
 This result highlights the overall effectiveness of our inter-snapshot learning design, which leverages intermediate node embeddings to capture the temporal features of evolving networks, as discussed in Section 3.2. Moreover, recurrent neural network-based inter-snapshot learning (i.e., LSTM and GRU) outperform heuristic and non-recurrent neural network-based approaches, further emphasizing the strength of recurrent architectures in modeling temporal dynamics.
 
 ## Hyperparameter sensitivity
