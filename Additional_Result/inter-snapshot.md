@@ -1,4 +1,6 @@
-### Temporal feature update methods
+# The impact of inter-snapshot learning 
+
+## intermediate node embedding result
 ![intermediate node embedding result](temp_exp_data.png)
 
 As shown in Figure, where the y-axis represents the relative accuracy in AUROC and AP, incorporating more intermediate node embeddings into LINCOLN's inter-snapshot learning results in higher hyperedge prediction accuracy. Specifically, we evaluated three LINCOLN variants with different inter-snapshot learning designs:
@@ -9,6 +11,7 @@ LINCOLN-All: uses all intermediate node embeddings as input to the inter-snapsho
 
 This finding demonstrates that intermediate node embeddings provide valuable information for capturing the temporal patterns of high-order relations hidden across a sequence of snapshots.
 
+## temporal feature update methods
 ![temporal feature update methods](temporal%20update.png)
 
 Furthermore, as shown in Table, LINCOLN consistently achieves high accuracies across most datasets, regardless of the specific variant of its temporal feature update methods. 
