@@ -1,4 +1,4 @@
-### Fixed-split setting experiment
+# Fixed-split setting experiment
 ![fixed_split_experiment](fixed_split_result.png)
 
 
