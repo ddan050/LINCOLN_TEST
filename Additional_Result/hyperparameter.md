@@ -1,4 +1,4 @@
-### Hyperparameter sensitivity
+# Hyperparameter sensitivity
 ![hyperparameter result](hyperparameter_exp.png)
 
 Figure shows the results, where the x-axis represents the
