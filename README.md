@@ -55,13 +55,13 @@ Our code runs on the Intel i7-7700k CPU with 64GB memory and  NVIDIA RTX 2080 Ti
 ## Additional Result
 Additional experimental results and explanations can be found [Here](Additional_Result/Readme_add.md).
 
-###  [Fixed-split setting experiment](Additional_Result/Fixed-split.md)
+###  Fixed-split setting experiment [result] (Additional_Result/Fixed-split.md)
 
 We evaluate LINCOLN by using two different evaluation settings, following [ROLAND](https://arxiv.org/abs/2208.07239) : (1) fixed-split evaluation and (2) liveupdate evaluation settings. 
 We compare the hyperedge prediction accuracies of LINCOLN and our competitors in the <u>fixed-split evaluation settings</u>.
 
 
-### [The impact of inter-snapshot learning](Additional_Result/inter-snapshot.md)
+### The impact of inter-snapshot learning [result] (Additional_Result/inter-snapshot.md)
 
 We verify the impact of inter-snapshot learning on the hyperedge prediction accuracy of LINCOLN.
 
@@ -70,7 +70,7 @@ We verify the impact of inter-snapshot learning on the hyperedge prediction accu
 (2) Furthermore, we compare four variants of LINCOLN with different temporal feature update methods: (1) Moving average (MA); (2) Multi-layer perceptron (MLP); (3) [LSTM](https://ieeexplore.ieee.org/abstract/document/6795963), and (4) [GRU](https://arxiv.org/abs/1406.1078).
 
 
-### [The impacts of the hyperparameter β](Additional_Result/hyperparameter.md)
+### The impacts of the hyperparameter β [result] (Additional_Result/hyperparameter.md)
 
 We evaluate the impacts of the hyperparameters β on the
 model accuracy of LINCOLN. We measured the accuracy of
