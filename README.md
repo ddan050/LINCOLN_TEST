@@ -55,7 +55,7 @@ Our code runs on the Intel i7-7700k CPU with 64GB memory and  NVIDIA RTX 2080 Ti
 ## Additional Result
 Additional experimental results and explanations can be found [Here](Additional_Result/Readme_add.md).
 
-###  Fixed-split setting experiment (link)(Additional_Result/Fixed-split.md)
+###  Fixed-split setting experiment [(link)](Additional_Result/Fixed-split.md)
 
 We evaluate LINCOLN by using two different evaluation settings, following [ROLAND](https://arxiv.org/abs/2208.07239) : (1) fixed-split evaluation and (2) liveupdate evaluation settings. 
 We compare the hyperedge prediction accuracies of LINCOLN and our competitors in the <u>fixed-split evaluation settings</u>.
