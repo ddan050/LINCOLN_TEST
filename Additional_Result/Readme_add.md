@@ -36,7 +36,9 @@ Furthermore, as shown in Table, LINCOLN consistently achieves high accuracies ac
 This result highlights the overall effectiveness of our inter-snapshot learning design, which leverages intermediate node embeddings to capture the temporal features of evolving networks, as discussed in Section 3.2. Moreover, recurrent neural network-based inter-snapshot learning (i.e., LSTM and GRU) outperform heuristic and non-recurrent neural network-based approaches, further emphasizing the strength of recurrent architectures in modeling temporal dynamics.
 
 ## Hyperparameter sensitivity
-![hyperparameter result](hyperparameter_exp.png)
+<p align="center">
+<img src="./Additional_Result/hyperparameter_exp.png" width="50%" height="50%">
+</p>
 
 Figure shows the results, where the x-axis represents the
 control weight β and the y-axis represents the hyperedge
