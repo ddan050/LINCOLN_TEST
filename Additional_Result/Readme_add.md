@@ -37,7 +37,7 @@ This result highlights the overall effectiveness of our inter-snapshot learning 
 
 ## Hyperparameter sensitivity
 <p align="center">
-<img src="./Additional_Result/hyperparameter_exp.png" width="50%" height="50%">
+<img src="hyperparameter_exp.png" width="50%" height="50%">
 </p>
 
 Figure shows the results, where the x-axis represents the
